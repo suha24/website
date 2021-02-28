@@ -1,0 +1,119 @@
+body{
+      background-color:rgba(128, 128, 128, 0.103);
+    }
+h1  {
+      color:black;
+    }
+
+
+
+    p{
+      font-size:large;
+      font:italic;
+      text-align: left;
+      }
+
+video { 
+      width:300px ;
+      position: absolute;
+      
+      right: 20%;
+      top: 70%;
+    
+      }
+a    {
+       text-align: center; 
+
+     }
+
+ h3,br a {
+          text-align:center ;
+         }    
+ 
+ .content {
+
+            box-sizing:border-box ;
+            width: 500px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color:rgba(128, 128, 128, 0.658);
+            padding: 15px;
+            box-shadow: 2px 3px 8px;
+            
+             }
+
+   
+            
+ input[type="text"] ,input[type="password"] 
+                                    {
+
+                                          width: 100%;
+                                          margin: 5px 0;
+                                          padding: 5px;
+                                          font-size: 20px;
+                                          outline: none;
+                                          border: none;
+                                          border-bottom: 2px  solid pink;
+                        
+                                    }
+
+
+input[type="text"] :focus ,input[type="password"] :focus
+{
+
+     
+      border-bottom: 2px solid pink;
+
+}    
+label{
+      font-size: large;
+      color:black;
+     
+
+      }                             
+ input [type="submit"]  {
+                          margin: 20px 0;
+                          padding: 2px 20px;
+                          border:none ; 
+                          outline:none ;
+                          font-family:sans-serif;
+                          color: black;
+                          background-color:pink;
+                          border-radius: 5px;
+
+                         
+
+                       }                                                                                                             
+                                    
+                                    
+
+.paragraph h1 {
+    text-align: center;
+              }
+            
+ content p {  font-style: italic;
+              font-size: large;      
+            }
+  .paragraph p{
+                font-size: large;
+                font: optional;
+                text-align: center;
+              }
+
+footer  {   
+            background-color: rgba(128, 128, 128, 0.356);  
+            color: black;
+            padding:0.9rem ; 
+            text-align: center;
+            position: fixed; 
+            bottom: 0%;
+            width: 100%;
+            outline: 0;
+            
+            
+              
+          }    
+
+           
